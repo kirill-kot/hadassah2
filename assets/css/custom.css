@@ -1,0 +1,3181 @@
+.purple-custom {
+	background-color: #6133b3;
+}
+.purple-custom-text {
+	color: #6133b3;
+}
+.btn.btn-custom {
+	border: none;
+	border-radius: 36px;
+	display: inline-block;
+	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	outline: 0;
+	padding: 0 2rem;
+	text-transform: uppercase;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: transparent;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+header,
+nav {
+	height: 100px;
+}
+nav a {
+	margin-left: 5%;
+}
+nav .brand-logo,
+footer .brand-logo {
+	left: 60px;
+	height: 100px;
+}
+nav .button-collapse {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	height: 40px;
+	width: 40px;
+}
+nav .button-collapse img {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+nav .scrollspy {
+	justify-content: space-around;
+	height: 100px;
+	line-height: 100px;
+}
+nav ul a {
+	font-size: 20px;
+}
+header .cta {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	text-align: center;
+}
+footer .cta {
+	float: right;
+	width: 300px;
+	height: 100px;
+	position: relative;
+	margin-right: 10px;
+	text-align: center;
+}
+header .phone,
+nav .info,
+footer .phone {
+	line-height: 36px;
+}
+header .cta p,
+footer .cta p {
+	font-size: 24px;
+	width: 100%;
+	clear: both;
+	line-height: 10px;
+	text-align: center;
+}
+.call {
+	margin: 0;
+	right: 0;
+	height: 30px;
+	text-align: center;
+}
+#greeting-section {
+	overflow: hidden;
+	height: 800px;
+}
+#greeting-section .filter {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(27, 38, 116, 0.5);
+	z-index: 50;
+}
+#greeting-section .info {
+	position: absolute;
+	z-index: 100;
+	height: 60%;
+}
+#greeting-section .picture {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+#greeting-section .section {
+	width: 100%;
+}
+#greeting-section .picture img {
+	width: 100%;
+	height: 100%;
+	z-index: 25;
+}
+
+	#thanks #greeting-section h1, #greeting-section h1 {
+	line-height: 1;
+		height: 20vh;
+		text-align: left;
+	}
+	#thanks #greeting-section h4, #greeting-section h4 {
+	line-height: 1;
+		height: 20vh;
+		text-align: left;
+	}
+#diagnosis .diagnos img {
+	height: 200px;
+	width: auto;
+}
+#diagnosis {
+	position: relative;
+}
+.diagnos p {
+	font-size: 24px;
+}
+.diagnos {
+	margin: 1em 0;
+}
+.diagnos-tooltip {
+	position: absolute;
+	width: 320px;
+	top: auto;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	z-index: 400;
+	opacity: 0;
+}
+.diagnos-tooltip.onko, .diagnos-tooltip.cardio {
+	left: 30%;
+}
+.diagnos-tooltip.orto, .diagnos-tooltip.neurosurgery {
+	left: 50%;
+}
+.diagnos-tooltip.neuro, .diagnos-tooltip.gepath {
+	right: 50%;
+}
+.diagnos-tooltip.derma, .diagnos-tooltip.common {
+	right: 30%;
+}
+#cta [type="checkbox"] + label,
+#cta2 [type="checkbox"] + label {
+	height: 30px;
+	line-height: 30px;
+	font-size: 25px;
+}
+#cta label a,
+#cta2 label a,
+.underline {
+	text-decoration: underline;
+}
+#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+#cta [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked,
+#cta [type="checkbox"].filled-in:checked + label:after,
+#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+#cta2 [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked,
+#cta2 [type="checkbox"].filled-in:checked + label:after,
+#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+#cta3 [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked,
+#cta3 [type="checkbox"].filled-in:checked + label:after {
+	height: 30px;
+	width: 30px;
+}
+[type="checkbox"]:checked + label:before {
+	border-right: 1px solid #7e57c2;
+	border-bottom: 1px solid #7e57c2;
+	color: #7e57c2;
+	left: 2px;
+	width: 12px;
+	height: 20px;
+}
+[type="checkbox"].filled-in:checked + label:after {
+	border: 2px solid #fff;
+	background-color: #7e57c2;
+}
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea #cta2 input:not([type])
+	font-size: 20px;
+#cta 	line-height: 20px;,
+#cta2 input[type=text],
+#cta2 input[type=password],
+#cta2 input[type=email],
+#cta2 input[type=url],
+#cta2 input[type=time],
+#cta2 input[type=date],
+#cta2 input[type=datetime],
+#cta2 input[type=datetime-local],
+#cta2 input[type=tel],
+#cta2 input[type=number],
+#cta2 input[type=search],
+#cta2 textarea.materialize-textarea {
+}
+#cta input:not([type]):focus:not([readonly]),
+#cta input[type=text]:focus:not([readonly]),
+#cta input[type=password]:focus:not([readonly]),
+#cta input[type=email]:focus:not([readonly]),
+#cta input[type=url]:focus:not([readonly]),
+#cta input[type=time]:focus:not([readonly]),
+#cta input[type=date]:focus:not([readonly]),
+#cta input[type=datetime]:focus:not([readonly]),
+#cta input[type=datetime-local]:focus:not([readonly]),
+#cta input[type=tel]:focus:not([readonly]),
+#cta input[type=number]:focus:not([readonly]),
+#cta input[type=search]:focus:not([readonly]),
+#cta textarea.materialize-textarea:focus:not([readonly]),
+#cta2 input[type=text]:focus:not([readonly]),
+#cta2 input[type=password]:focus:not([readonly]),
+#cta2 input[type=email]:focus:not([readonly]),
+#cta2 input[type=url]:focus:not([readonly]),
+#cta2 input[type=time]:focus:not([readonly]),
+#cta2 input[type=date]:focus:not([readonly]),
+#cta2 input[type=datetime]:focus:not([readonly]),
+#cta2 input[type=datetime-local]:focus:not([readonly]),
+#cta2 input[type=tel]:focus:not([readonly]),
+#cta2 input[type=number]:focus:not([readonly]),
+#cta2 input[type=search]:focus:not([readonly]),
+#cta2 textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 0 #fff;
+}
+#cta3 input:not([type]):focus:not([readonly]),
+#cta3 input[type=text]:focus:not([readonly]),
+#cta3 input[type=password]:focus:not([readonly]),
+#cta3 input[type=email]:focus:not([readonly]),
+#cta3 input[type=url]:focus:not([readonly]),
+#cta3 input[type=time]:focus:not([readonly]),
+#cta3 input[type=date]:focus:not([readonly]),
+#cta3 input[type=datetime]:focus:not([readonly]),
+#cta3 input[type=datetime-local]:focus:not([readonly]),
+#cta3 input[type=tel]:focus:not([readonly]),
+#cta3 input[type=number]:focus:not([readonly]),
+#cta3 input[type=search]:focus:not([readonly]),
+#cta3 textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #7e57c2;
+	box-shadow: 0 1px 0 0 #7e57c2;
+}
+	[type="checkbox"].filled-in:not(:checked) + label:after,
+
+#cta [type="checkbox"].filled-in:checked + label:after,
+#cta2 [type="checkbox"].filled-in:checked + label:after,
+#cta3 [type="checkbox"].filled-in:checked + label:after {
+}
+input:not([type]).validate + label,
+#cta input[type=text].validate + label,
+#cta input[type=password].validate + label,
+#cta input[type=email].validate + label,
+#cta input[type=url].validate + label,
+#cta input[type=time].validate + label,
+#cta input[type=date].validate + label,
+#cta input[type=datetime].validate + label,
+#cta input[type=datetime-local].validate + label,
+#cta input[type=tel].validate + label,
+#cta input[type=number].validate + label,
+#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+	font-size: 18px;
+	line-height: 20px;
+}
+form span.character-counter,
+form span.character-counter {
+	font-size: 16px !important;
+	color: #fff;
+}
+.swiper-slide {
+	margin: 20px auto;
+}
+.feedback .swiper-slide p {
+	width: 90%;
+}
+.feedback .swiper-slide .name,
+.feedback .swiper-slide .city {
+	line-height: 20px;
+	margin: 0;
+}
+	height: 20px;
+.feedback .city {
+	padding-bottom: 50px;
+}
+.swiper-button-prev.swiper-button-purple {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%237e57c2'%2F%3E%3C%2Fsvg%3E");
+	position: absolute;
+	left: -5%;
+	right: auto;
+}
+.swiper-button-next.swiper-button-purple {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%237e57c2'%2F%3E%3C%2Fsvg%3E");
+	position: absolute;
+	right: -5%;
+	left: auto;
+}
+.swiper-button-next.swiper-button-white {
+	right: -5%;
+	left: auto;
+}
+.swiper-button-prev.swiper-button-white {
+	right: auto;
+	left: -5%;
+}
+.with-slider {
+	overflow: visible;
+	position: relative;
+}
+.clinics .card {
+	height: 360px;
+}
+.clinics .card .card-content {
+	height: 120px;
+}
+.doctors .card-image {
+	height: 240px;
+	width: 100%;
+}
+.doc-photo {
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	margin: 20px auto;
+}
+#steps .steps {
+	text-align: left;
+	font-size: 1.25em;
+}
+#steps .flex-row {
+	height: 150px;
+	margin: 25px auto;
+}
+#clinics .clinics .card .card-image {
+	height: 200px;
+	width: auto;
+	overflow: hidden;
+}
+#clinics .clinics .card .card-image img {
+	height: 250px;
+	width: auto;
+}
+.clinics .clinic-city,
+.clinics .clinic-name {
+	font-size: 1em;
+	margin: 10px 0;
+}
+#about p {
+	font-size: 30px;
+	word-spacing: 3px;
+}
+#participate ul {
+	font-size: 30px;
+	word-spacing: 3px;
+}
+.participate-conditions li:before {
+	content: '•';
+	position: absolute;
+	font-size: 60px;
+	line-height: 75%;
+	margin-left: -30px;
+	height: 30px;
+	width: 30px;
+	color: #fff;
+}
+#protocol ul {
+	font-size: 30px;
+	word-spacing: 3px;
+}
+.protocol-steps li p {
+	margin: 25px 0;
+}
+.protocol-steps li:before {
+	content: '•';
+	position: absolute;
+	font-size: 60px;
+	line-height: 75%;
+	margin-left: -30px;
+	height: 30px;
+	width: 30px;
+	color: #0176bb;
+}
+#questions button {
+	font-size: 1em;
+	line-height: 1.5;
+	height: 50px;
+	margin: 20px 0;
+	padding: 0 2em;
+}
+footer {
+	height: 100px;
+	padding: 0;
+}
+footer .section {
+	height: 100px;
+}
+footer a {
+	height: 140px;
+}
+footer .row {
+	margin-bottom: 0;
+}
+footer .footer-logo {
+	height: 100px;
+	margin-top: 20px;
+}
+footer .toTop {
+	float: right;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	position: relative;
+	margin: 0;
+	margin-right: 10px;
+}
+footer .toTop img {
+	height: 35px;
+	width: 35px;
+	margin: 5px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+	margin-right: 0;
+}
+footer .flex-row {
+	width: 80%;
+	margin: 0 10%;
+	justify-content: space-around;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+footer .flex-row {
+	width: 100%;
+	margin: 0;
+	justify-content: space-around;
+}
+}
+@media all and (min-width: 0) and (max-width: 480px) {
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 1.75em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 1.25em;
+	}
+	h5 {
+		font-size: 1em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 80vh;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos img {
+		height: 125px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	.feedback .swiper-slide p,
+	#steps p {
+		font-size: 1.25em;
+	}
+	.feedback .swiper-slide p {
+		margin: 10px 5%;
+		font-size: 1em;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	.diagnos {
+		margin: 0;
+	}
+	#steps .flex-row {
+		height: 100px;
+		margin: 0;
+	}
+	.with-slider {
+		width: 100%;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: auto;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card,
+	.feedback .swiper-slide .name,
+	.feedback .swiper-slide .city {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	footer .toTop {
+		height: 35px;
+		width: 35px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 20px;
+		width: 20px;
+	}
+	footer .cta {
+		width: auto;
+		height: 100px;
+		margin: 0;
+	}
+	footer .brand-logo {
+		height: 100px;
+		width: auto;
+		left: 0;
+	}
+	footer a {
+		height: 100px;
+		width: auto;
+		margin: 0;
+	}
+	footer .info .phone a,
+	footer .info .phone p {
+		font-size: 1.125em;
+	}
+	footer .info button {
+		padding: 0 1em;
+	}
+	form p:last-child {
+		margin-bottom: 10px;
+	}
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 200px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: normal;
+		width: 100%;
+	}
+	.side-nav a,
+	.sidenav p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.25em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 25px;
+		width: 25px;
+		line-height: 25px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 10px;
+		height: 15px;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 640px) {
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 1.75em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 1.25em;
+	}
+	h5 {
+		font-size: 1em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 80vh;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos {
+		width: 50%;
+		margin: 0;
+	}
+	#diagnosis .diagnos img {
+		height: 125px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	.feedback .swiper-slide p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name {
+		font-size: 1.25em;
+	}
+	.feedback .swiper-slide p {
+		margin: 10px 5%;
+		font-size: 1em;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		height: 100px;
+		margin: 0;
+	}
+	.with-slider {
+		width: 100%;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: auto;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card,
+	.feedback .swiper-slide .name,
+	.feedback .swiper-slide .city {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 35px;
+		width: 35px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 20px;
+		width: 20px;
+	}
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 320px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: 1.25em;
+		width: 100%;
+	}
+	.side-nav li a {
+		line-height: 1.25em;
+	}
+	.side-nav a,
+	.sidenav li p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.5em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.1em;
+	}
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+	nav ul a {
+		line-height: normal;
+	}
+	h1 {
+		font-size: 2.75em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	h5 {
+		font-size: 1.75em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section .m8 {
+		width: 100%;
+		margin: 0;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos {
+		width: 33%;
+		margin: 0;
+	}
+	#diagnosis .diagnos img {
+		height: 125px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	.feedback .swiper-slide p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name {
+		font-size: 1.25em;
+	}
+	.feedback .swiper-slide p {
+		margin: 10px 5%;
+		font-size: 1em;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 150px;
+		margin: 0;
+	}
+	.with-slider {
+		width: 100%;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: auto;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card,
+	.feedback .swiper-slide .name,
+	.feedback .swiper-slide .city {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 35px;
+		width: 35px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 20px;
+		width: 20px;
+	}
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 320px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: 1.5em;
+		width: 100%;
+	}
+	.side-nav li a {
+		line-height: 1.5em;
+	}
+	.side-nav a,
+	.sidenav li p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.75em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.75em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 12px;
+		height: 18px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.5em;
+	}
+}
+@media all and (min-width: 769px) and (max-width: 992px) {
+	nav ul a {
+		line-height: normal;
+	}
+	h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.75em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2.5em;
+	}
+	h4 {
+		font-size: 2.25em;
+	}
+	h5 {
+		font-size: 2em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 10vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		height: 10vh;
+		margin-left: 10%;
+		text-align: left;
+	}
+	#greeting-section .m8 {
+		width: 100%;
+		margin: 0;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos {
+		width: 33%;
+		margin: 0;
+	}
+	#diagnosis .diagnos img {
+		height: 125px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	.feedback .swiper-slide p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name,
+	.card .card-content p,
+	#steps .steps {
+		font-size: 1.5em;
+	}
+	.feedback .swiper-slide p {
+		margin: 10px 5%;
+		font-size: 1.25em;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	#clinics .clinics .card .card-image {
+		height: 240px;
+		width: auto;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: 180px;
+	}
+	#clinics .swiper-slide,
+	.clinics .card {
+		height: 480px;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 180px;
+		margin: 0;
+	}
+	.with-slider {
+		width: 100%;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card,
+	.feedback .swiper-slide .name,
+	.feedback .swiper-slide .city {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 35px;
+		width: 35px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 20px;
+		width: 20px;
+	}
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 320px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: 1.5em;
+		width: 100%;
+	}
+	.side-nav li a {
+		line-height: 1.5em;
+	}
+	.side-nav a {
+		padding: 0;
+		width: 100%;
+		margin: 25px auto;
+	}
+	.side-nav a,
+	.sidenav li p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.5em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 14px;
+		height: 18px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.25em;
+	}
+}
+@media all and (min-width: 993px) and (max-width: 1024px) {
+	nav ul a {
+		font-size: 1em;
+		line-height: normal;
+		margin: 0;
+		padding: 0 5px;
+	}
+	nav a {
+		margin-left: 0;
+	}
+	header button,
+	header .btn {
+		font-size: 1.25em;
+	}
+	header .cta {
+		width: auto;
+	}
+	h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.75em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2.5em;
+	}
+	h4 {
+		font-size: 2.25em;
+	}
+	h5 {
+		font-size: 2em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 10vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		height: 10vh;
+		margin-left: 10%;
+		text-align: left;
+	}
+	#greeting-section .m8 {
+		width: 100%;
+		margin: 0;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos {
+		width: 33%;
+		margin: 0;
+	}
+	#diagnosis .diagnos img {
+		height: 150px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name,
+	.doctors .card .card-content p, .clinics .card .card-content p,
+	#steps .steps {
+		font-size: 1.75em;
+	}
+	.feedback .swiper-slide p, #diagnosis .diagnos-tooltip .card .card-content p {
+		margin: 20px 5%;
+		font-size: 1.5em;
+		text-align: left;
+	}
+	.feedback .swiper-slide .name, .feedback .swiper-slide .city {
+		line-height: 20px;
+		margin: 15px 5%;
+	}
+	.diagnos-tooltip {
+		top: 15%;
+		height: 480px;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	#clinics .clinics .card .card-image {
+		height: 240px;
+		width: auto;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: 180px;
+	}
+	#clinics .swiper-slide,
+	.clinics .card {
+		height: 480px;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 240px;
+		margin: 0;
+	}
+	.with-slider {
+		width: 100%;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card{
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 35px;
+		width: 35px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 20px;
+		width: 20px;
+	}
+	.side-nav a,
+	.sidenav p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.75em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.75em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.5em;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+	nav .brand-logo, footer .brand-logo {
+		left: 20px;
+	}
+	nav ul a {
+		font-size: 1em;
+		line-height: normal;
+	}
+	nav a {
+		margin: 0;
+	}
+	header button,
+	header .btn {
+		padding: 0 .5em;
+		font-size: 1.25em;
+	}
+	header .cta {
+		right: 20px;
+		width: auto;
+	}
+	h1 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.25em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.75em;
+	}
+	h5 {
+		font-size: 1.5em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		width: 80%;
+		height: 15vh;
+		margin-left: 10%;
+		text-align: left;
+	}
+	#greeting-section .m8 {
+		width: 100%;
+		margin: 0;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos img {
+		height: 150px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name,
+	.doctors .card .card-content p, .clinics .card .card-content p,
+	#steps .steps {
+		font-size: 1.25em;
+	}
+	.diagnos-tooltip {
+	height: 480px;
+}
+	.feedback .swiper-slide p, .diagnos-tooltip .card .card-content p {
+		margin: 10px 5%;
+		font-size: 1em;
+		text-align: left;
+	}
+	.feedback .swiper-slide .name, .feedback .swiper-slide .city {
+		margin: 5px 5%;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	#clinics .clinics .card .card-image {
+		height: 180px;
+		width: auto;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: 150px;
+	}
+	#clinics .swiper-slide,
+	.clinics .card {
+		height: 400px;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 150px;
+		margin: 0;
+	}
+	.with-slider {
+		width: 100%;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 40px;
+		width: 40px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 30px;
+		width: 30px;
+	}
+	.side-nav a,
+	.sidenav p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.125em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.25em;
+	}
+
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.125em;
+	}
+
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.1em;
+	}
+}
+@media all and (min-width: 1281px) and (max-width: 1600px) {
+	nav ul a {
+		font-size: 1.25em;
+		line-height: normal;
+	}
+	nav a {
+		margin: auto;
+	}
+	header .cta {
+		right: 75px;
+		width: auto;
+	}
+	header button,
+	header .btn {
+		padding: 0 .5em;
+		font-size: 1.25em;
+	}
+	header .cta {
+		right: 20px;
+		width: auto;
+	}
+	h1 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.25em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.75em;
+	}
+	h5 {
+		font-size: 1.5em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+		height: auto;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		width: 80%;
+		height: 15vh;
+		margin-left: 10%;
+		text-align: left;
+	}
+	#greeting-section .m8 {
+		width: 100%;
+		margin: 0;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#diagnosis .diagnos img {
+		height: 150px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	#steps p,
+	.doctors .card .card-content p, .clinics .card .card-content p,
+	#steps .steps {
+		font-size: 1.125em;
+	}
+	.diagnos-tooltip {
+		height: 480px;
+	}
+	.feedback .swiper-slide p, .diagnos-tooltip .card .card-content p {
+		margin: 10px 5%;
+		font-size: 1em;
+		text-align: left;
+	}
+	.feedback .swiper-slide .name, .feedback .swiper-slide .city {
+		margin: 0 5%;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	#clinics .clinics .card .card-image {
+		height: 180px;
+		width: auto;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: 120px;
+	}
+	#clinics .swiper-slide,
+	.clinics .card {
+		height: auto;
+	}
+	.card-action a {
+		font-size: 1.125em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 150px;
+		margin: 0;
+	}
+	.with-slider {
+		text-align: left;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 40px;
+		width: 40px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 30px;
+		width: 30px;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.25em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.125em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		line-height: 1.25em;
+		height: 1.25em;
+		font-size: 1.125em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.15em;
+	}
+}
+@media all and (min-width: 1601px) and (max-width: 1920px) {
+	nav ul a {
+		font-size: 2em;
+		width: auto;
+		line-height: normal;
+	}
+	nav a {
+		margin: auto;
+	}
+	header .cta {
+		right: 75px;
+		width: auto;
+	}
+	header button,
+	header .btn {
+		padding: 0 .5em;
+		font-size: 1.25em;
+	}
+	header .cta {
+		right: 20px;
+		width: auto;
+	}
+	h1 {
+		font-size: 2.75em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	h5 {
+		font-size: 1.75em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+		height: auto;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		width: 80%;
+		height: 15vh;
+		margin-left: 10%;
+		text-align: left;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 50px;
+	}
+	#diagnosis .diagnos img {
+		height: 180px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name,
+	.doctors .card .card-content p, .clinics .card .card-content p,
+	#steps .steps {
+		font-size: 1.25em;
+	}
+
+	.diagnos-tooltip {
+		height: 520px;
+	}
+
+	.feedback .swiper-slide p, .diagnos-tooltip .card .card-content p {
+		margin: 10px 5%;
+		font-size: 1.125em;
+		text-align: left;
+	}
+	.feedback .swiper-slide .name, .feedback .swiper-slide .city {
+		margin: 0 5%;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	#clinics .clinics .card .card-image {
+		height: 180px;
+		width: auto;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: 120px;
+	}
+	#clinics .swiper-slide,
+	.clinics .card {
+		height: auto;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 150px;
+		margin: 0;
+	}
+	.with-slider {
+		text-align: left;
+	}
+	.doc-photo {
+		height: 150px;
+		width: 150px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 40px;
+		width: 40px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 30px;
+		width: 30px;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.55em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.9em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.7em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.5em;
+	}
+}
+@media all and (min-width: 1921px) {
+	nav ul a {
+		font-size: 2.25em;
+		width: auto;
+		line-height: normal;
+	}
+	nav a {
+		margin: auto;
+	}
+	header .cta {
+		right: 75px;
+		width: auto;
+	}
+	header button,
+	header .btn {
+		padding: 0 .5em;
+		font-size: 1.25em;
+	}
+	h1 {
+		font-size: 2.75em;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	h5 {
+		font-size: 1.75em;
+	}
+	#greeting-section {
+		height: 100%;
+	}
+	#greeting-section .picture {
+		height: 100vh;
+	}
+	#greeting-section .picture img {
+		width: 100%;
+		height: auto;
+	}
+	#thanks #greeting-section h1, #thanks #greeting-section h4 {
+		height: 15vh;
+		text-align: center;
+	}
+	#greeting-section h1, #greeting-section h4 {
+		width: 80%;
+		height: 15vh;
+		margin-left: 10%;
+		text-align: left;
+	}
+	#greeting-section .m8 {
+		width: 100%;
+		margin: 0;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	#greeting-section {
+		height: 90vh;
+	}
+	.huge {
+		margin: 0;
+		font-size: 50px;
+	}
+	#diagnosis .diagnos img {
+		height: 200px;
+	}
+	.diagnos p,
+	#advantages ul p,
+	#steps p,
+	.clinics .clinic-city,
+	.clinics .clinic-name,
+	.doctors .card .card-content p, .clinics .card .card-content p,
+	#steps .steps {
+		font-size: 1.5em;
+	}
+
+	.diagnos-tooltip {
+		height: 600px;
+	}
+
+	.feedback .swiper-slide p, .diagnos-tooltip .card .card-content p {
+		margin: 10px 5%;
+		font-size: 1.25em;
+		text-align: left;
+	}
+	.feedback .swiper-slide .name, .feedback .swiper-slide .city {
+		padding: 0 5%;
+	}
+	.diagnos p,
+	#advantages ul p {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#advantages ul .icon {
+		height: 25px;
+		width: 25px;
+		margin-right: 10px;
+	}
+	#advantages ul li {
+		line-height: 1.5;
+	}
+	#advantages ul p {
+		margin-left: 10%;
+		line-height: 25px;
+		width: 80%;
+	}
+	form p:last-child {
+		margin: 10px 0;
+	}
+	.swiper-slide {
+		margin: 0;
+	}
+	#clinics .clinics .card .card-image {
+		height: 200px;
+		width: auto;
+	}
+	.doctors .card .card-content,
+	.clinics .card .card-content {
+		height: 120px;
+	}
+	#clinics .swiper-slide,
+	.clinics .card {
+		height: auto;
+	}
+	.card-action a {
+		font-size: 1.25em;
+	}
+	.EULA {
+		margin: 10px auto;
+	}
+	#steps .flex-row {
+		width: 50%;
+		height: 150px;
+		margin: 0;
+	}
+	.with-slider {
+		text-align: left;
+	}
+	.doc-photo {
+		height: 200px;
+		width: 200px;
+		margin: 20px auto;
+	}
+	.swiper-button-prev.swiper-button-purple,
+	.swiper-button-prev.swiper-button-white {
+		left: 0;
+	}
+	.swiper-button-next.swiper-button-purple,
+	.swiper-button-next.swiper-button-white {
+		right: 0;
+	}
+	#feedback .swiper-slide,
+	.doctors .card,
+	.clinics .card{
+		width: 90%;
+		margin: auto 5%;
+	}
+	.doctors .card-image {
+		height: auto;
+		width: auto;
+	}
+	#clinics .clinics .card .card-image img {
+		height: auto;
+	}
+	footer a {
+		height: 100px;
+	}
+	footer .toTop {
+		height: 40px;
+		width: 40px;
+		margin: auto 15px;
+	}
+	footer .toTop img {
+		height: 30px;
+		width: 30px;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea,
+	#cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea,
+	#cta3 input:not([type]),
+	#cta3 input[type=text],
+	#cta3 input[type=password],
+	#cta3 input[type=email],
+	#cta3 input[type=url],
+	#cta3 input[type=time],
+	#cta3 input[type=date],
+	#cta3 input[type=datetime],
+	#cta3 input[type=datetime-local],
+	#cta3 input[type=tel],
+	#cta3 input[type=number],
+	#cta3 input[type=search],
+	#cta3 textarea.materialize-textarea {
+		font-size: 1.75em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label,
+	#cta3 input:not([type]).validate + label,
+	#cta3 input[type=text].validate + label,
+	#cta3 input[type=password].validate + label,
+	#cta3 input[type=email].validate + label,
+	#cta3 input[type=url].validate + label,
+	#cta3 input[type=time].validate + label,
+	#cta3 input[type=date].validate + label,
+	#cta3 input[type=datetime].validate + label,
+	#cta3 input[type=datetime-local].validate + label,
+	#cta3 input[type=tel].validate + label,
+	#cta3 input[type=number].validate + label,
+	#cta3 input[type=search].validate + label,
+	#cta3 textarea.materialize-textarea.validate + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label,
+	#cta3 [type="checkbox"] + label {
+		font-size: 1.8em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	#cta [type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	#cta2 [type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after,
+	#cta3 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta3 [type="checkbox"]:not(:checked),
+	#cta3 [type="checkbox"]:checked,
+	#cta3 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before,
+	#cta3 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.75em;
+	}
+}
